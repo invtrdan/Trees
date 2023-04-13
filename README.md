@@ -1,5 +1,5 @@
 # Trees
-In Python, trees are a type of data strucutre that represents a hierarchial structure with nodes connected by edges. Trees are widely used in computer science and programming for tasks such as representing hierarchial relationships, searching and sorting algorithms, and parsing expressions.\
+In Python, trees are a non-linear data strucutre that represents a hierarchial structure with nodes connected by edges. Trees are widely used in computer science and programming for tasks such as representing hierarchial relationships, searching and sorting algorithms, and parsing expressions.\
 
 Here are some key concepts related to trees in Python:
 1. Node: A node is a fundamental unit in a tree that contains data and zero or more child nodes. In Python, a node in a tree can be represented as an object or a dictionary with attributes, or even a simple class.
@@ -12,7 +12,16 @@ Here are some key concepts related to trees in Python:
 8. Binary Tree: A binary tree is a tree in which each node has at most two children. it is one of the most commom types of trees used in computer science and programming.
 9. Tree Traversal: Tree traversal refers to the process of visiting and processing all the nodes in a tree in a specific order. Common tree traversal algorithms in Python include in-order, pre-order, and post-order traversal.
 10. Tree Operations: trees support various operations such as insertion, deletion, searching, and modification of nodes. These operations are essential for manipulating the data stored in a tree and maintaining its hierarchial structure.
+11. A path is a sequence of 0 or more connected nodes. 
+* The length of a path is the number of edges in the path.
+* The depth of a node is the number of edges on the path from the root to the node.
+* The height of a tree is the number of edges on the longest path from the root to a leaf node.  
+12. Ancestor: Node A is an ancestor of Node B if there exists a path from A to B.
+13. Descendant: Node B is a descendant of Node A if there exists a path from A to B. 
 
-Python provides built-in data structures such as lists and dictionaries that can be used to implement trees. Additionally, there are third-party libraries such as "binarytree" and "treelib" that provide pre-implemented tree data structures and algorithms for easy use in Python programs.
+Python provides built-in data structures such as lists and dictionaries that can be used to implement trees. Additionally, there are third-party libraries such as "binarytree" and "treelib" that provide pre-implemented tree data structures and algorithms for easy use in Python programs.\
+
+Q: How many branches are in a tree with N nodes?\
+A: n-1\
 
 
