@@ -30,11 +30,11 @@ A: -1
 
 A tree traversal is an algorithm that steps through every node in a tree in some order. 
 
-###### Level 1       A        height = 2 
-######              / \                
-###### Level 2     B   C      height = 1
-######            / \ 
-###### Level 3   D   E        height = 0
+Level 1       A        height = 2 
+             / \                
+Level 2     B   C      height = 1
+           / \ 
+Level 3   D   E        height = 0
 
 ### Preorder Traversal
 * Visit the root
@@ -79,23 +79,32 @@ There are various types of binary trees, including binary search trees, AVL tree
 #### Full Tree
 * Every node has 0 or 2 children
 
-*  A
+  A
 
-*   A
-*  / \ 
-* B   C
-*    / \ 
-*   D   E
+   A
+  / \ 
+ B   C
+    / \ 
+   D   E
 
 #### Complex Tree
 * All levels are completely filled, except possibly the last, which is filled from left to right.
 
-*    A
+     A
 
-*     A
-*    / \ 
-*   B   C
-*  / \ / \ 
-* C  D E  F
+     A
+    / \ 
+   B   C
+  / \ / \ 
+ C  D E  F
 
 #### Perfect Tree
+* Full and Complete, and the bottom level is full.
+
+     A
+
+     A
+    / \ 
+   B   C
+  / \ / \ 
+ C  D E  F
