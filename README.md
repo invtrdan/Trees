@@ -30,11 +30,11 @@ A: -1
 
 A tree traversal is an algorithm that steps through every node in a tree in some order. 
 
-Level 1       A        height = 2
-             / \
-Level 2     B   C      height = 1
-           / \
-Level 3   D   E        height = 0
+Level 1       A        height = 2 \
+             / \\                
+Level 2     B   C      height = 1\
+           / \\
+Level 3   D   E        height = 0\
 
 ### Preorder Traversal
 * Visit the root
