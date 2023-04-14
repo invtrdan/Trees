@@ -81,10 +81,10 @@ There are various types of binary trees, including binary search trees, AVL tree
 
   A
 
-  A
- / \
-B   C
-   / \
+  A    \
+ / \   \
+B   C  \
+   / \ \
   D   E
 
 #### Complex Tree
