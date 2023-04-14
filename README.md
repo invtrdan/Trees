@@ -23,5 +23,77 @@ Python provides built-in data structures such as lists and dictionaries that can
 
 Q: How many branches are in a tree with N nodes?\
 A: n-1\
+Q: What is the height and depth of an empty tree?\
+A: -1 
 
+## Tree Traversals
 
+A tree traversal is an algorithm that steps through every node in a tree in some order. 
+
+Level 1       A        height = 2
+             / \
+Level 2     B   C      height = 1
+           / \
+Level 3   D   E        height = 0
+
+### Preorder Traversal
+* Visit the root
+* Traversel Left
+* Traverse Right
+
+A -> B -> D -> E -> c
+
+### Inorder Traversal
+* Traverse Left
+* Visit the root
+* Traverse Right
+
+D -> B -> E -> A -> C 
+
+### Postorder Traversal
+* Traverse Left
+* Traverse Right
+* Visit Root
+
+D -> E -> B -> C -> A
+
+### Level Order Traversal
+
+## Binary Trees
+
+Binary trees are a type of tree data structure where each node has at most two children. These children are typically referred to as the left child and the right child. A binary tree is a hierarchical structure where nodes are organized in levels, starting from the root node at level 0 and moving downward to leaf nodes at the deepest level.\
+
+Binary trees have a few key properties:
+
+* Root: The topmost node in the binary tree is called the root. It serves as the starting point for traversing the tree.
+* Nodes: Each node in the binary tree contains a value or data, and can have at most two child nodes.
+* Left Child and Right Child: Each node can have a left child and/or a right child, which are its immediate descendants in the tree. The left child is typically smaller (or equal) in value compared to the parent node, while the right child is larger (or equal).
+* Leaf Nodes: Leaf nodes are the nodes that do not have any children. They are also referred to as terminal nodes, as they represent the end of a branch in the tree.
+* Binary trees can be used to represent a wide variety of data structures, such as search trees, expression trees, and decision trees. They can be used for tasks such as searching, insertion, deletion, and traversal of data in an efficient manner.
+* Each Node must have no more than 2 vhildren.
+
+There are various types of binary trees, including binary search trees, AVL trees, red-black trees, and heap trees, each with their own specific rules and properties. Binary trees are widely used in computer science and programming due to their efficiency and versatility in representing and processing data in a hierarchical manner.\
+
+### Types of Binary Trees
+
+#### Full Tree
+* Every node has 0 or 2 children
+
+  A
+
+  A
+ / \
+B   C
+   / \
+  D   E
+
+#### Complex Tree
+* All levels are completely filled, except possibly the last, which is filled from left to right.
+
+  A
+
+  A
+ / \
+B   C
+   / \
+  D   E
