@@ -81,19 +81,19 @@ There are various types of binary trees, including binary search trees, AVL tree
 
   A
 
-  A    \
- / \   \
-B   C  \
-   / \ \
+  A\
+ / \\
+B   C\
+   / \\
   D   E
 
 #### Complex Tree
 * All levels are completely filled, except possibly the last, which is filled from left to right.
 
-  A
+   A
 
-  A
- / \
-B   C
-   / \
-  D   E
+   A\
+  / \\
+ B   C\
+/ \ / \\
+C D E  F
